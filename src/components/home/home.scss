@@ -8,6 +8,7 @@
         height:calc(100vh - 78px);
     }
     .home-content{
+        // height: calc(90vh - 20%);
         color: white;
         position: absolute;
         // top:calc(100vh-10px);
@@ -21,4 +22,10 @@
             font-size: 50px;
         }
     }
+}
+
+.home-footer {
+    // should edit this directly in the component's scss file
+    // color: white;
+    // color: black;
 }

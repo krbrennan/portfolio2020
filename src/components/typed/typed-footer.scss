@@ -1,0 +1,24 @@
+
+.home-footer {
+    height:120px;
+    background: black;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+
+    h3 {
+        color: white;
+        position: absolute;
+        margin-top: 20px;
+        border: 2px solid white;
+        right: 200px;
+        padding: 24px;
+    }
+}
+
+.typed-words {
+    font-size: 50px;
+    color: white;
+    margin-left: 20%;
+    margin-top: 20px;
+}

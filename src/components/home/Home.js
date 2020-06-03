@@ -5,6 +5,9 @@ import Navbar from '../navbar/Navbar.js';
 // style
 import './home.scss';
 
+// Typed
+import TypedFooter from '../typed/TypedFooter.js';
+
 const Home = () => {
     return(
         <section>
@@ -14,6 +17,9 @@ const Home = () => {
                 <div className='home-content'>
                     <h1>Kevin Brennan</h1>
                     <h3>Software Developer</h3>
+                </div>
+                <div className='home-footer'>
+                    <TypedFooter />
                 </div>
             </div>
         </section>
