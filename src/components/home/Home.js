@@ -15,8 +15,8 @@ const Home = () => {
             <div className='home'>
                 <img className='background-img' src={require('../../assets/background1.jpg')}></img>
                 <div className='home-content'>
-                    <h1>Kevin Brennan</h1>
-                    <h3>Software Developer</h3>
+                    <h1 className='home-h1'>Kevin Brennan</h1>
+                    <h3 className='home-h3'>Software Developer</h3>
                 </div>
                 <TypedFooter />
             </div>

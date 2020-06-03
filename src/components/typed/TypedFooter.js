@@ -5,23 +5,6 @@ import { Link } from 'react-router-dom';
 // style
 import './typed-footer.scss';
 
-// const TypedFooter = () => {
-//     return(
-//         <div className='home-footer'>
-//             <Typed 
-//                 strings={["Hi there...","Check out my projects..."]}
-//                 typeSpeed={200}
-//                 backSpeed={100}
-//                 className='typed-words'
-//                 loop={false}
-//                 onStop={console.log('anus')}
-//             />
-//             <a className='projects-btn-a' target='_blank' href='/projects'><button className='projects-btn'>explore</button></a>
-//         </div>
-//     )
-// }
-
-
 class TypedFooter extends React.Component {
     state = {
         displayBtn: false

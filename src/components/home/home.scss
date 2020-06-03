@@ -14,18 +14,41 @@
         // top:calc(100vh-10px);
         top:30%;
         left:20%;
-        > h1 {
+        .home-h1 {
             font-size: 100px;
         }
-        > h3 {
+        .home-h3 {
             margin-top: 30px;
             font-size: 50px;
         }
     }
 }
 
-.home-footer {
-    // should edit this directly in the component's scss file
-    // color: white;
-    // color: black;
+@media(max-width:500px){
+    .home{
+
+        .home-content {
+            top: 25%;
+
+            .home-h1 {
+                font-size: 60px;
+            }
+            .home-h3 {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media(width:320px) and (height:568px){
+    .home {
+
+        .home-content {
+            top: 20%;
+
+            .home-h1 {
+                font-size: 45px;
+            }
+        }
+    }
 }

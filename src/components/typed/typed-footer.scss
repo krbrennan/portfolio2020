@@ -18,6 +18,7 @@
         color: white;
     }
     .projects-btn:hover {
+        cursor: pointer;
         background: white;
         color: black;
     }
@@ -46,9 +47,12 @@
 
 @media(max-width:900px){
     .home-footer{
+        justify-content: center;
+        
 
         .typed-words {
             font-size: 2em;
+            margin-left: 0;
         }
         .projects-btn-a {
 
@@ -60,12 +64,22 @@
     }
 }
 
-@media(max-width:600px){
+@media(max-width:500px){
     .home-footer {
         justify-content: center;
+        height: 200px;
 
         .typed-words {
             margin-left: 10%;
         }
+    }
+}
+
+@media(max-width:390px){
+    .home-footer{
+
+        .typed-words{
+            text-align: center;
+        }        
     }
 }
