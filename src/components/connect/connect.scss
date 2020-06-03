@@ -1,0 +1,17 @@
+
+.connect {
+    margin: 0 auto;
+    .header {
+        font-size: 75px;
+        padding: 40px;
+    }
+    .connect-div {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img {
+            padding: 20px;
+        }
+    }
+}
