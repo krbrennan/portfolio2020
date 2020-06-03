@@ -5,20 +5,25 @@
     width:100%;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
 
-    h3 {
+    .typed-words {
+        font-size: 50px;
+        color: white;
+        margin-left: 20%;
+    }
+    .projects-btn:hover {
+        background: white;
+        color: black;
+    }
+    .projects-btn {
+        top:15%;
         color: white;
         position: absolute;
-        margin-top: 20px;
+        margin-top: 5px;
         border: 2px solid white;
-        right: 200px;
+        right: 300px;
         padding: 24px;
     }
-}
-
-.typed-words {
-    font-size: 50px;
-    color: white;
-    margin-left: 20%;
-    margin-top: 20px;
 }

@@ -14,7 +14,7 @@ const TypedFooter = () => {
                 className='typed-words'
                 loop={true}
             />
-            <h3>explore</h3>
+            <a className='projects-btn-a' target='_blank' href='/projects'><h3 className='projects-btn'>explore</h3></a>
         </div>
     )
 }

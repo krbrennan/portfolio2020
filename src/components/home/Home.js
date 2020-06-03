@@ -18,9 +18,7 @@ const Home = () => {
                     <h1>Kevin Brennan</h1>
                     <h3>Software Developer</h3>
                 </div>
-                <div className='home-footer'>
-                    <TypedFooter />
-                </div>
+                <TypedFooter />
             </div>
         </section>
     )
