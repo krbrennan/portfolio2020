@@ -24,9 +24,7 @@ class TypedFooter extends React.Component {
                 backSpeed={100}
                 className='typed-words'
                 loop={false}
-                onStop={console.log('anus')}
             />
-            {/* <a className='project-btn-a' target='_blank' href='/projects'><button className='projects-btn'>explore</button></a> */}
             { this.state.displayBtn ? <Link to="/projects"><button className="projects-btn">explore</button></Link> : <Link to="/projects"><button className='hidden'></button></Link>}
         </div>
         )
