@@ -65,7 +65,6 @@ class Navbar extends React.Component{
             })
         }
     }
-
     toggleHamburger = () => {
         this.setState({
             hamburger:true
@@ -78,7 +77,7 @@ class Navbar extends React.Component{
     }
     render = () => {
         let burger = this.state.hamburger;
-        console.log(this.state.width)
+        // console.log(this.state.width)
         return(
             <div className='nav-div'>
                 {burger ?(
