@@ -1,0 +1,38 @@
+
+
+.project-list-item-li {
+    margin:20px;
+    width:400px;
+    height:300px;
+    border: 2px solid black;
+
+    .project-list-item-div {
+        width: 100%;
+
+        .top-div {
+            height: 150px;
+            background: blue;
+        }
+
+        .bottom-div {
+            // text-align: center;
+            height: 146px;
+            background:yellow;
+            .project-list-item-h3 {
+                margin:0 auto;
+                text-align: center;
+            }
+            .project-icons {
+                text-align: center;
+                padding:7px;
+            }
+            .blurb {
+                padding:7px;
+            }
+            .project-api {
+                padding:7px;
+            }
+        }
+    }
+
+}

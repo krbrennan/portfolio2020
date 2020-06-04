@@ -1,8 +1,98 @@
 [
     {
-        "name": "weather"
+        "name": "Weather Essentials",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": "Dark Sky Weather API"
     },
     {
-        "name": "dog"
+        "name": "Rent-a-Dog",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": null
+    },
+    {
+        "name": "Youtube Clone",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": "Youtube"
+    },
+    {
+        "name": "Gif Lookup",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": "Gfycat"
+    },
+    {
+        "name": "Speech Recognition",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": "Google's Speech recognition"
+    },
+    {
+        "name": "Contra-Yelp",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": "Yelp"
+    },
+    {
+        "name": "2017-2019 Portfolio",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": null
+    },
+    {
+        "name": "Rails Blog",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": null
+    },
+    {
+        "name": "Reddit Cakeday Extension",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "www.linkToProject.com",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": "Reddit"
+    },
+    {
+        "name": "C++ School Work",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "https://github.com/krbrennan/cpp_practice",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": null
+    },
+    {
+        "name": "Pong/Space Invaders",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "https://github.com/krbrennan/javascript_games/tree/master/ball_blocks",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": null
+    },
+    {
+        "name": "Javascript Games",
+        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
+        "image": "URI encoded?",
+        "link": "https://github.com/krbrennan/javascript_games/tree/master/ball_blocks",
+        "icons": ["icon1", "icon2","icon3","icon4"],
+        "api": null
     }
 ]

@@ -18,15 +18,10 @@ class Projects extends React.Component{
     }
 
     render = (props) => {
-        // let ProjCardList = this.state.projList.map((project) => {
-        //     return(
-        //         <ProjectCardList projects={project} />
-        //     )
-        // });
-
         return(
-            <section>
+            <section className='project-section'>
                 <Navbar />
+                <h2 className='project-header'>Projects</h2>
                 <ProjectCardList projects={this.state.projList}/>
             </section>
         )
