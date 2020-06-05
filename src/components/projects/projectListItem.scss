@@ -11,12 +11,20 @@
 
         .top-div {
             height: 150px;
-            background: blue;
+            width: 396px;
+            // background: blue;
+
+            .image {
+                z-index: 1;
+                width: 396px;
+                height:150px;
+                background: green;
+            }
         }
 
         .bottom-div {
             // text-align: center;
-            height: 146px;
+            height: 100px;
             background:yellow;
             .project-list-item-h3 {
                 margin:0 auto;
