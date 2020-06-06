@@ -1,98 +1,90 @@
 [
     {
         "name": "Weather Essentials",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "./weather_essentials.png",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "blurb": "Uses geolocation and asynchronous API calls to provide real-time weather data in a visual format.",
+        "image": "./project_assets/weatherEssentials.png",
+        "link": "https://krbrennan.github.io/weather_react/",
+        "icons": ["./project_assets/react.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png", "./project_assets/css.png"],
         "api": "Dark Sky Weather API"
     },
     {
         "name": "Rent-a-Dog",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "www.linkToProject.com",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "blurb": "Static single-page-application for a fictional dog-rental company. Fully responsive and made in a few hours over a weekend.",
+        "image": "./project_assets/dog.png",
+        "link": "https://krbrennan.github.io/rent-a-dog/",
+        "icons": ["./project_assets/javascript.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": null
     },
     {
         "name": "Youtube Clone",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "www.linkToProject.com",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "blurb": "This SPA uses Youtube's API to retrieve videos that the user searches. While typing for videos this app will continuously make calls; albeit inefficient it shows the user how quickly data is passed between users and servers.",
+        "image": "./project_assets/youtube.png",
+        "link": "https://krbrennan.github.io/react_youtube_clone/",
+        "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Youtube"
     },
     {
         "name": "Gif Lookup",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "www.linkToProject.com",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "blurb": "This app uses React's speed to display API data gathered from gfycat, a popular gif hosting website. I plan to implement a betterlazy-loader to improve load-times and window-freezing.",
+        "image": "./project_assets/gfycat.png",
+        "link": "https://krbrennan.github.io/react_gify/",
+        "icons": ["./project_assets/react.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Gfycat"
     },
     {
-        "name": "Speech Recognition",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "www.linkToProject.com",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "name": "Dictation Application",
+        "blurb": "Using Chrome's build in microphone, this app will render your voice onto a notepad on your computer screen. Because audio input has to be translated on a server it was tricky determining when to make API calls.",
+        "image": "./project_assets/dictation.png",
+        "link": "https://krbrennan.github.io/speech_recognition/",
+        "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Google's Speech recognition"
     },
     {
         "name": "Contra-Yelp",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "www.linkToProject.com",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "blurb": "This app was created after eating a terrible reuben sandwich at a restaurant. After a user inputs their zipcode they'll find a list of restaurants with yelp-ratings below 3/5 stars. This app doesn't undo the anguish its developer experiences whenever a reuben is near.",
+        "image": "./project_assets/yelp.png",
+        "link": "https://krbrennan.github.io/contra-yelp/",
+        "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Yelp"
     },
     {
         "name": "2017-2019 Portfolio",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "www.linkToProject.com",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "blurb": "This was the second portfolio created by this developer. No bootstrapping was used, which looks pretty obvious! Not enough time was put into the design as this was made in a rush and life got in the way!",
+        "image": "./project_assets/portfolio.png",
+        "link": "https://krbrennan.github.io/portfolio/",
+        "icons": ["./project_assets/html5.png","./project_assets/css.png"],
         "api": null
     },
     {
         "name": "Rails Blog",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "www.linkToProject.com",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "blurb": "This was the first fullstack application this developer created. It has undergone many changes and is currently being re-developed to resemble something like twitter.",
+        "image": "./project_assets/weatherEssentials.png",
+        "link": "https://lit-river-95308.herokuapp.com/",
+        "icons": ["./project_assets/ruby.png", "./project_assets/html5.png", "./project_assets/css.png"],
         "api": null
     },
     {
         "name": "Reddit Cakeday Extension",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "www.linkToProject.com",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "blurb": "This Chrome extension was designed in order to identify any redditors with account-birthdays (cakedays) by displaying a colorful background behind their username. It uses Python and PRAW, a python API wrapper to easily communicate with reddit's servers.",
+        "image": "./project_assets/cakeday.png",
+        "link": "https://github.com/krbrennan/cakeday",
+        "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/python.png"],
         "api": "Reddit"
     },
     {
         "name": "C++ School Work",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
+        "blurb": "A collection of C++ work that I had done prior to taking CS classes. In order to grok c++ I made classes, structs, and solved puzzles.",
+        "image": "./project_assets/cpp_practice.png",
         "link": "https://github.com/krbrennan/cpp_practice",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "icons": ["./project_assets/cpp.png"],
         "api": null
     },
     {
         "name": "Pong/Space Invaders",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
+        "blurb": "This was by far the most difficult application to get running. I wrote on mirrors and windows all over the apartment to suss out the logic that I needed to implement the physics and hit-detection for this game.",
+        "image": "./project_assets/pong.png",
         "link": "https://github.com/krbrennan/javascript_games/tree/master/ball_blocks",
-        "icons": ["icon1", "icon2","icon3","icon4"],
-        "api": null
-    },
-    {
-        "name": "Javascript Games",
-        "blurb": "Words about this app, Lorem ipsum dolor sit amet. The lazy brown dog jumped over the quick fox",
-        "image": "./project_assets/weatherEssentials.jpeg",
-        "link": "https://github.com/krbrennan/javascript_games/tree/master/ball_blocks",
-        "icons": ["icon1", "icon2","icon3","icon4"],
+        "icons": ["./project_assets/javascript.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": null
     }
 ]

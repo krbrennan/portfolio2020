@@ -1,15 +1,14 @@
 import React from 'react'
+import Icons from './Icons.js';
 
 import './project_assets/projects.json';
 
 // styles
 import './projectListItem.scss';
 
-require('./project_assets/weatherEssentials.jpeg');
 
 const ProjectListItem = (props) => {
-    // let image = ;
-    // console.log({require(props.project.image)})
+
     return(
         <li className='project-list-item-li'>
             <div className='project-list-item-div'>
@@ -17,10 +16,13 @@ const ProjectListItem = (props) => {
                     <img className='image' src={ require(`${props.project.image}`) }></img>
                 </div>
                 <div className='bottom-div'>
-                    <h3 className='project-list-item-h3'>{props.project.name}</h3>
-                    <p className='project-icons'>{props.project.icons}</p>
+                    <h3 className='project-list-item-h3'><a href={props.project.link} target="_blank">{props.project.name}</a></h3>
+                    {/* <p className='project-icons'>{props.project.icons}</p> */}
+                    <Icons props={props.project.icons} />
+                    <hr className='hr'></hr>
                     <p className='blurb'>{props.project.blurb}</p>
-                    <p className='project-api'>API used: {props.project.api ? props.project.api : "none"}</p>
+                    <hr className='hr'></hr>
+                    <p className='project-api'><b>API used:</b> {props.project.api ? props.project.api : "none"}</p>
                 </div>
             </div>
         </li>

@@ -2,43 +2,89 @@
 
 .project-list-item-li {
     margin:20px;
-    width:400px;
-    height:300px;
-    border: 2px solid black;
+    width:500px;
+    height:525px;
+    box-shadow: 0 3px 6px 5px rgba(0,0,0,.75);
+    border-radius: 7px;
+    // border: 2px solid black;
 
     .project-list-item-div {
         width: 100%;
 
         .top-div {
-            height: 150px;
-            width: 396px;
-            // background: blue;
+            height: 250px;
+            width: 496px;
+            margin: 0 auto;
+            display: flex;
+            padding-top: 8px;
 
             .image {
-                z-index: 1;
-                width: 396px;
-                height:150px;
-                background: green;
+                margin: 0 auto;
+                padding: 3px;
+                border-radius: 7px 7px 0 0;
+                // width: 500px;
+                width:400px;
+                height:240px;
+                box-shadow: 3px 5px 5px 5px rgba(0,0,0,0.3);
             }
         }
 
         .bottom-div {
             // text-align: center;
-            height: 100px;
-            background:yellow;
+            font-size: 80%;
+            height: 196px;
+            margin-top: 15px;
+            // background:rgba(37, 37, 37, 0.541);
+
+            .project-list-item-h3 {
+                border-radius: 3px;
+                // box-shadow: 0 2px 3px 2px rgba(255, 123, 0, 0.788);
+                box-shadow: 3px 4px 10px 4px rgba(243, 125, 15, 0.425);
+                width: 150px;
+                height: 50px;
+                padding: 7px;
+                text-align: center;
+            }
+
+            .project-list-item-h3 > a {
+                text-decoration: none;
+                // padding:4px;
+                color: black;
+                min-width:150px;
+                text-align: center;
+                justify-content: center;
+            }
+
+            .project-list-item-h3:hover {
+                transition: all 1s linear;
+                transform: scale(1.1);
+                transition-duration: 500ms;
+                color: white;
+                background: rgba(0, 0, 0, 0.681);
+                cursor: pointer;
+
+                > a {
+                    color: white;
+                    opacity: 100%;
+                }
+            }
+
             .project-list-item-h3 {
                 margin:0 auto;
                 text-align: center;
             }
-            .project-icons {
-                text-align: center;
-                padding:7px;
-            }
             .blurb {
-                padding:7px;
+                width:95%;
+                padding: 5px 20px;
+                line-height: 18px;
+            }
+            .hr {
+                width: 50%;
+                margin: 0 auto;
             }
             .project-api {
-                padding:7px;
+                text-align: center;
+                padding-top: 8px;
             }
         }
     }
