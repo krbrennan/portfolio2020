@@ -9,6 +9,8 @@ import './projectListItem.scss';
 
 const ProjectListItem = (props) => {
 
+    const hasCode = props.project.code;
+
     return(
         <li className='project-list-item-li'>
             <div className='project-list-item-div'>
@@ -16,7 +18,17 @@ const ProjectListItem = (props) => {
                     <img className='image' src={ require(`${props.project.image}`) }></img>
                 </div>
                 <div className='bottom-div'>
-                    <h3 className='project-list-item-h3'><a href={props.project.link} target="_blank">{props.project.name}</a></h3>
+                    <div className='project-btns'>
+                        <span className='project-list-item-span'><a href={props.project.link} target="_blank">{props.project.name}</a></span>
+                        {hasCode
+                            ?
+                            <span className='project-list-item-span'><a href={props.project.code} target="_blank">Github Code</a></span>
+                            : <p>None</p> 
+                        
+                        }
+                        
+                        
+                    </div>
                     {/* <p className='project-icons'>{props.project.icons}</p> */}
                     <Icons props={props.project.icons} />
                     <hr className='hr'></hr>

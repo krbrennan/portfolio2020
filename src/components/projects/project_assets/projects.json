@@ -4,6 +4,7 @@
         "blurb": "Uses geolocation and asynchronous API calls to provide real-time weather data in a visual format.",
         "image": "./project_assets/weatherEssentials.png",
         "link": "https://krbrennan.github.io/weather_react/",
+        "code": "https://github.com/krbrennan/weather_react",
         "icons": ["./project_assets/react.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png", "./project_assets/css.png"],
         "api": "Dark Sky Weather API"
     },
@@ -12,6 +13,7 @@
         "blurb": "Static single-page-application for a fictional dog-rental company. Fully responsive and made in a few hours over a weekend.",
         "image": "./project_assets/dog.png",
         "link": "https://krbrennan.github.io/rent-a-dog/",
+        "code": "https://github.com/krbrennan/rent-a-dog",
         "icons": ["./project_assets/javascript.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": null
     },
@@ -20,6 +22,7 @@
         "blurb": "This SPA uses Youtube's API to retrieve videos that the user searches. While typing for videos this app will continuously make calls; albeit inefficient it shows the user how quickly data is passed between users and servers.",
         "image": "./project_assets/youtube.png",
         "link": "https://krbrennan.github.io/react_youtube_clone/",
+        "code": "https://github.com/krbrennan/react_youtube_clone",
         "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Youtube"
     },
@@ -28,6 +31,7 @@
         "blurb": "This app uses React's speed to display API data gathered from gfycat, a popular gif hosting website. I plan to implement a betterlazy-loader to improve load-times and window-freezing.",
         "image": "./project_assets/gfycat.png",
         "link": "https://krbrennan.github.io/react_gify/",
+        "code": "https://github.com/krbrennan/react_gify",
         "icons": ["./project_assets/react.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Gfycat"
     },
@@ -36,6 +40,7 @@
         "blurb": "Using Chrome's build in microphone, this app will render your voice onto a notepad on your computer screen. Because audio input has to be translated on a server it was tricky determining when to make API calls.",
         "image": "./project_assets/dictation.png",
         "link": "https://krbrennan.github.io/speech_recognition/",
+        "code": "https://github.com/krbrennan/speech_recognition",
         "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Google's Speech recognition"
     },
@@ -44,6 +49,7 @@
         "blurb": "This app was created after eating a terrible reuben sandwich at a restaurant. After a user inputs their zipcode they'll find a list of restaurants with yelp-ratings below 3/5 stars. This app doesn't undo the anguish its developer experiences whenever a reuben is near.",
         "image": "./project_assets/yelp.png",
         "link": "https://krbrennan.github.io/contra-yelp/",
+        "code": "https://github.com/krbrennan/contra-yelp",
         "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Yelp"
     },
@@ -52,14 +58,16 @@
         "blurb": "This was the second portfolio created by this developer. No bootstrapping was used, which looks pretty obvious! Not enough time was put into the design as this was made in a rush and life got in the way!",
         "image": "./project_assets/portfolio.png",
         "link": "https://krbrennan.github.io/portfolio/",
+        "code": "https://github.com/krbrennan/portfolio",
         "icons": ["./project_assets/html5.png","./project_assets/css.png"],
         "api": null
     },
     {
         "name": "Rails Blog",
-        "blurb": "This was the first fullstack application this developer created. It has undergone many changes and is currently being re-developed to resemble something like twitter.",
+        "blurb": "This was the first fullstack application that this developer created. It has undergone many changes and is currently being re-developed to resemble something like twitter. It uses encryption (bcrypt) to store passwords and authentication on login.",
         "image": "./project_assets/weatherEssentials.png",
         "link": "https://lit-river-95308.herokuapp.com/",
+        "code": "https://github.com/krbrennan/blog_RoR",
         "icons": ["./project_assets/ruby.png", "./project_assets/html5.png", "./project_assets/css.png"],
         "api": null
     },
