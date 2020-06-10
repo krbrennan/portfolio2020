@@ -23,7 +23,7 @@ const ProjectListItem = (props) => {
                         {hasCode
                             ?
                             <span className='project-list-item-span'><a href={props.project.code} target="_blank">Github Code</a></span>
-                            : <p>None</p> 
+                            : <p></p> 
                         
                         }
                         

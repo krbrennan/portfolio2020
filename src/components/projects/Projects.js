@@ -21,8 +21,10 @@ class Projects extends React.Component{
         return(
             <section className='project-section'>
                 <Navbar />
-                <h2 className='project-header'>Projects</h2>
-                <ProjectCardList projects={this.state.projList}/>
+                <div className='project-content'>
+                    <h2 className='project-header'>Projects</h2>
+                    <ProjectCardList projects={this.state.projList}/>
+                </div>
             </section>
         )
 
