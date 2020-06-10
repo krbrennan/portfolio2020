@@ -68,7 +68,7 @@
         "image": "./project_assets/weatherEssentials.png",
         "link": "https://lit-river-95308.herokuapp.com/",
         "code": "https://github.com/krbrennan/blog_RoR",
-        "icons": ["./project_assets/ruby.png", "./project_assets/html5.png", "./project_assets/css.png"],
+        "icons": ["./project_assets/sql.png", "./project_assets/ruby.png", "./project_assets/html5.png", "./project_assets/css.png"],
         "api": null
     },
     {
