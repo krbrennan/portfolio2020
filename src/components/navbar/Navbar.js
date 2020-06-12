@@ -68,10 +68,10 @@ class Navbar extends React.Component{
                             </button>
                             <div className={ this.state.active ? "show-nav" : "hide-nav"}>
                                 <ul className='hamburger-ul'>
-                                    <li className='hamburger-li'><Link to='/'>Home</Link></li>
-                                    <li className='hamburger-li'><Link to='/projects'>Projects</Link></li>
-                                    <li className='hamburger-li'><Link to='/about'>About</Link></li>
-                                    <li className='hamburger-li'><Link to='/connect'>Contact</Link></li>
+                                    <li className='hamburger-li'><Link to='/portfolio2020/'>Home</Link></li>
+                                    <li className='hamburger-li'><Link to='/portfolio2020/projects'>Projects</Link></li>
+                                    <li className='hamburger-li'><Link to='/portfolio2020/about'>About</Link></li>
+                                    <li className='hamburger-li'><Link to='/portfolio2020/connect'>Contact</Link></li>
                                 </ul>
                             </div>  
                         </div>  
@@ -79,18 +79,18 @@ class Navbar extends React.Component{
                     ) : (
                         <div className='nav'>
                         <div className='nav-home'>
-                            <a className='nav-home-a' href='/'>
+                            <a className='nav-home-a' href='/portfolio2020/'>
                                 <p className='nav-li'>Home</p>
                             </a>
                         </div>
                         <ul className='nav-ul'>
-                            <a className='nav-a' href='/projects'>
+                            <a className='nav-a' href='/portfolio2020/projects'>
                                 <li className='nav-li'>Projects</li>
                             </a>
-                            <a className='nav-a' href='/about'>
+                            <a className='nav-a' href='/portfolio2020/about'>
                                 <li className='nav-li'>About</li>
                             </a>
-                            <a className='nav-a' href='/connect'>
+                            <a className='nav-a' href='/portfolio2020/connect'>
                                 <li className='nav-li'>Connect</li>
                             </a>
                         </ul>

@@ -25,7 +25,7 @@ class TypedFooter extends React.Component {
                 className='typed-words'
                 loop={false}
             />
-            { this.state.displayBtn ? <Link to="/projects"><button className="projects-btn">explore</button></Link> : <Link to="/projects"><button className='hidden'></button></Link>}
+            { this.state.displayBtn ? <Link to="/portfolio2020/projects"><button className="projects-btn">explore</button></Link> : <Link to="/projects"><button className='hidden'></button></Link>}
         </div>
         )
     }
