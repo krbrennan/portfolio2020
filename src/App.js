@@ -16,7 +16,7 @@ function App() {
   <Router>
     <Switch>
       <Route exact path='/portfolio2020/about' component={ About } />
-      <Route exact path='https://krbrennan.github.io/portfolio2020/projects/' component={ Projects } />
+      <Route exact path='/#/projects/' component={ Projects } />
       <Route exact path='/portfolio2020/connect' component={ Connect } />
       <Route exact path='/portfolio2020/' component={ Home } />
     </Switch>
