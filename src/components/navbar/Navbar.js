@@ -5,29 +5,6 @@ import { Link } from 'react-router-dom';
 import './navbar.scss';
 import './hamburger.scss';
 
-// const Navbar = () => {
-//     return(
-        // <div className='nav'>
-        //     <div className='nav-home'>
-        //         <a className='nav-home-a' href='/'>
-        //             <p className='nav-li'>Home</p>
-        //         </a>
-        //     </div>
-        //     <ul className='nav-ul'>
-        //         <a className='nav-a' href='/projects'>
-        //             <li className='nav-li'>Projects</li>
-        //         </a>
-        //         <a className='nav-a' href='/about'>
-        //             <li className='nav-li'>About</li>
-        //         </a>
-        //         <a className='nav-a' href='/connect'>
-        //             <li className='nav-li'>Connect</li>
-        //         </a>
-        //     </ul>
-        // </div>
-//     )
-// }
-
 class Navbar extends React.Component{
     state = {
         hamburger: false,
@@ -79,46 +56,49 @@ class Navbar extends React.Component{
         let burger = this.state.hamburger;
         // console.log(this.state.width)
         return(
-            <div className='nav-div'>
-                {burger ?(
-                    <div className='hamburger-nav'>
-                        <button className={this.state.active ? "hamburger hamburger--collapse is-active" : "hamburger hamburger--collapse"}  type="button"
-                        onClick={this.toggleIsActive}>
-                        <span class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                        </span>
-                        </button>
-                        <div className={ this.state.active ? "show-nav" : "hide-nav"}>
-                            <ul className='hamburger-ul'>
-                                <li className='hamburger-li'><Link to='/'>Home</Link></li>
-                                <li className='hamburger-li'><Link to='/projects'>Projects</Link></li>
-                                <li className='hamburger-li'><Link to='/about'>About</Link></li>
-                                <li className='hamburger-li'><Link to='/contact'>Contact</Link></li>
-                            </ul>
+            <section>
+                <div className='nav-div'>
+                    {burger ?(
+                        <div className='hamburger-nav'>
+                            <button className={this.state.active ? "hamburger hamburger--collapse is-active" : "hamburger hamburger--collapse"}  type="button"
+                            onClick={this.toggleIsActive}>
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                            </button>
+                            <div className={ this.state.active ? "show-nav" : "hide-nav"}>
+                                <ul className='hamburger-ul'>
+                                    <li className='hamburger-li'><Link to='/'>Home</Link></li>
+                                    <li className='hamburger-li'><Link to='/projects'>Projects</Link></li>
+                                    <li className='hamburger-li'><Link to='/about'>About</Link></li>
+                                    <li className='hamburger-li'><Link to='/connect'>Contact</Link></li>
+                                </ul>
+                            </div>  
                         </div>  
-                    </div>  
-                    
-                ) : (
-                    <div className='nav'>
-                    <div className='nav-home'>
-                        <a className='nav-home-a' href='/'>
-                            <p className='nav-li'>Home</p>
-                        </a>
+                        
+                    ) : (
+                        <div className='nav'>
+                        <div className='nav-home'>
+                            <a className='nav-home-a' href='/'>
+                                <p className='nav-li'>Home</p>
+                            </a>
+                        </div>
+                        <ul className='nav-ul'>
+                            <a className='nav-a' href='/projects'>
+                                <li className='nav-li'>Projects</li>
+                            </a>
+                            <a className='nav-a' href='/about'>
+                                <li className='nav-li'>About</li>
+                            </a>
+                            <a className='nav-a' href='/connect'>
+                                <li className='nav-li'>Connect</li>
+                            </a>
+                        </ul>
                     </div>
-                    <ul className='nav-ul'>
-                        <a className='nav-a' href='/projects'>
-                            <li className='nav-li'>Projects</li>
-                        </a>
-                        <a className='nav-a' href='/about'>
-                            <li className='nav-li'>About</li>
-                        </a>
-                        <a className='nav-a' href='/connect'>
-                            <li className='nav-li'>Connect</li>
-                        </a>
-                    </ul>
-                </div>
-                )}
+                    )}
             </div>
+            </section>
+
         );
     }
 }

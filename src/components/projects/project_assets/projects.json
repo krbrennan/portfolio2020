@@ -37,7 +37,7 @@
     },
     {
         "name": "Dictation Application",
-        "blurb": "Using Chrome's build in microphone, this app will render your voice onto a notepad on your computer screen. Because audio input has to be translated on a server it was tricky determining when to make API calls.",
+        "blurb": "Using Chrome's built in microphone, this app will render your voice onto a notepad on your computer screen. Because audio input has to be translated on a server it was tricky determining when to make API calls.",
         "image": "./project_assets/dictation.png",
         "link": "https://krbrennan.github.io/speech_recognition/",
         "code": "https://github.com/krbrennan/speech_recognition",

@@ -38,15 +38,15 @@ overflow: hidden;
             margin: 1.5em;
             font-size: 20px;
         }
+        .resume-a {
+            margin: 0 auto;
+        }
         .resume-btn {
             width: 200px;
             height: 75px;
             font-size: 25px;   
-            // box-shadow: 2px 2px 4px 2px  black;
             border: 2px solid black;
             background: white;
-            margin: 0 auto;
-    
         }
         .resume-btn:hover {
             cursor: pointer;
@@ -129,6 +129,84 @@ overflow: hidden;
         .about-img {
             max-width: 500px;
             margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .about-me {
+        margin-top: 4em;
+    }
+}
+
+@media (max-width: 600px) {
+    #root > section > div.about-me > span > p.about-me-title {
+        font-size: 50px;
+    }
+    .skills-and-interests {
+        margin-top: 6em;
+    }
+
+    #root > section > div.about-me > span > .about-p {
+        font-size: 15px;
+    }
+
+    .skills-and-interests {
+        margin-left: 3em;
+    }
+
+    #root > section > div.skills-and-interests > div.skills > div > ul {
+        margin: 0;
+        padding: 2em 0;
+    }
+
+    #root > section > div.skills-and-interests > div.interests > ul {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #root > section > div.skills-and-interests > div.interests > ul {
+        margin: 0 auto;
+
+        li {
+            margin-left: 2em;
+        }
+    }
+    
+}
+
+@media (max-width: 510px) {
+
+    .about-img {
+        width: 350px;
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-img {
+        width: 250px;
+        height: 200px !important;
+    }
+    #root > section > div.about-me > span > p.about-me-title {
+        font-size: 30px;
+    }
+    #root > section > div.about-me > span > p.subtitle {
+        font-size: 20px;
+    }
+    .skills-and-interests {
+        margin-top: 6em;
+    }
+    .language-img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    #root > section > div.skills-and-interests > div.interests > ul {
+        margin: 0 auto;
+
+        li {
+            margin-left: 0;
+            padding: 0.5em 0;
         }
     }
 }
