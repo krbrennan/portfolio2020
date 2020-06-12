@@ -74,12 +74,11 @@
                 transform: scale(1.1);
                 transition-duration: 500ms;
                 color: white;
-                background: rgba(0, 0, 0, 0.681);
+                background: rgba(0, 0, 0, 1);
                 cursor: pointer;
 
                 > a {
                     color: white;
-                    opacity: 100%;
                 }
             }
             .blurb {
