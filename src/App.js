@@ -15,10 +15,10 @@ function App() {
   return(
   <Router>
     <Switch>
-      <Route exact path='/portfolio2020/' component={ Home } />
       <Route exact path='/portfolio2020/about' component={ About } />
       <Route exact path='/portfolio2020/projects' component={ Projects } />
       <Route exact path='/portfolio2020/connect' component={ Connect } />
+      <Route exact path='/portfolio2020/' component={ Home } />
     </Switch>
   </Router>
   )
