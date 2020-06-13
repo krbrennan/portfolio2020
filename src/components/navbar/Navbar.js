@@ -79,20 +79,20 @@ class Navbar extends React.Component{
                     ) : (
                         <div className='nav'>
                         <div className='nav-home'>
-                            <a className='nav-home-a' href='/'>
+                            <Link className='nav-home-a' to='/'>
                                 <p className='nav-li'>Home</p>
-                            </a>
+                            </Link>
                         </div>
                         <ul className='nav-ul'>
-                            <a className='nav-a' href='/projects'>
+                            <Link className='nav-a' to='/projects'>
                                 <li className='nav-li'>Projects</li>
-                            </a>
-                            <a className='nav-a' href='/about'>
+                            </Link>
+                            <Link className='nav-a' to='/about'>
                                 <li className='nav-li'>About</li>
-                            </a>
-                            <a className='nav-a' href='/connect'>
+                            </Link>
+                            <Link className='nav-a' to='/connect'>
                                 <li className='nav-li'>Connect</li>
-                            </a>
+                            </Link>
                         </ul>
                     </div>
                     )}
