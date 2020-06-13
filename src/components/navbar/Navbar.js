@@ -68,10 +68,10 @@ class Navbar extends React.Component{
                             </button>
                             <div className={ this.state.active ? "show-nav" : "hide-nav"}>
                                 <ul className='hamburger-ul'>
-                                    <li className='hamburger-li'><Link to='/portfolio2020/'>Home</Link></li>
-                                    <li className='hamburger-li'><Link to='/portfolio2020/projects'>Projects</Link></li>
+                                    <li className='hamburger-li'><Link to='/'>Home</Link></li>
+                                    <li className='hamburger-li'><Link to='/projects'>Projects</Link></li>
                                     <li className='hamburger-li'><Link to='/about'>About</Link></li>
-                                    <li className='hamburger-li'><Link to='/portfolio2020/connect'>Contact</Link></li>
+                                    <li className='hamburger-li'><Link to='/connect'>Contact</Link></li>
                                 </ul>
                             </div>  
                         </div>  
