@@ -15,10 +15,10 @@ function App() {
   return(
   <Router basename={process.env.PUBLIC_URL}>
     <Switch>
+      <Route exact path='/' component={ Home } />
       <Route path='/about' component={ About } />
       <Route path='/projects' component={ Projects } />
       <Route path='/connect' component={ Connect } />
-      <Route exact path='/' component={ Home } />
     </Switch>
   </Router>
   )
