@@ -70,7 +70,7 @@ class Navbar extends React.Component{
                                 <ul className='hamburger-ul'>
                                     <li className='hamburger-li'><Link to='/portfolio2020/'>Home</Link></li>
                                     <li className='hamburger-li'><Link to='/portfolio2020/projects'>Projects</Link></li>
-                                    <li className='hamburger-li'><Link to='/portfolio2020/about'>About</Link></li>
+                                    <li className='hamburger-li'><Link to='/about'>About</Link></li>
                                     <li className='hamburger-li'><Link to='/portfolio2020/connect'>Contact</Link></li>
                                 </ul>
                             </div>  
