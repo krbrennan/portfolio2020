@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return(
-  <Router>
+  <Router history={history} basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route exact path='/about' component={ About } />
       <Route exact path='/projects' component={ Projects } />
