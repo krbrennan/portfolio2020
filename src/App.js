@@ -13,11 +13,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return(
-  <Router history={history} basename={process.env.PUBLIC_URL}>
+  <Router basename={process.env.PUBLIC_URL}>
     <Switch>
-      <Route exact path='/about' component={ About } />
-      <Route exact path='/projects' component={ Projects } />
-      <Route exact path='/connect' component={ Connect } />
+      <Route path='/about' component={ About } />
+      <Route path='/projects' component={ Projects } />
+      <Route path='/connect' component={ Connect } />
       <Route exact path='/' component={ Home } />
     </Switch>
   </Router>
