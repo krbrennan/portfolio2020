@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Check out my portfolio LIVE: https://krbrennan.github.io/portfolio2020/
 
 ## Available Scripts
 
