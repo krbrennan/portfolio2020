@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio2020/static/css/main.2f3472d2.chunk.css",
-    "main.js": "/portfolio2020/static/js/main.de5863f1.chunk.js",
-    "main.js.map": "/portfolio2020/static/js/main.de5863f1.chunk.js.map",
+    "main.css": "/portfolio2020/static/css/main.08f26ad3.chunk.css",
+    "main.js": "/portfolio2020/static/js/main.39ffb0c2.chunk.js",
+    "main.js.map": "/portfolio2020/static/js/main.39ffb0c2.chunk.js.map",
     "runtime-main.js": "/portfolio2020/static/js/runtime-main.d961a151.js",
     "runtime-main.js.map": "/portfolio2020/static/js/runtime-main.d961a151.js.map",
-    "static/js/2.32c7cc72.chunk.js": "/portfolio2020/static/js/2.32c7cc72.chunk.js",
-    "static/js/2.32c7cc72.chunk.js.map": "/portfolio2020/static/js/2.32c7cc72.chunk.js.map",
+    "static/js/2.f60d6df7.chunk.js": "/portfolio2020/static/js/2.f60d6df7.chunk.js",
+    "static/js/2.f60d6df7.chunk.js.map": "/portfolio2020/static/js/2.f60d6df7.chunk.js.map",
     "index.html": "/portfolio2020/index.html",
-    "precache-manifest.780882e08e5410566854fa6340e440d6.js": "/portfolio2020/precache-manifest.780882e08e5410566854fa6340e440d6.js",
+    "precache-manifest.16dd0134ef236939dfe9526e986c6cdf.js": "/portfolio2020/precache-manifest.16dd0134ef236939dfe9526e986c6cdf.js",
     "service-worker.js": "/portfolio2020/service-worker.js",
-    "static/css/main.2f3472d2.chunk.css.map": "/portfolio2020/static/css/main.2f3472d2.chunk.css.map",
-    "static/js/2.32c7cc72.chunk.js.LICENSE.txt": "/portfolio2020/static/js/2.32c7cc72.chunk.js.LICENSE.txt",
+    "static/css/main.08f26ad3.chunk.css.map": "/portfolio2020/static/css/main.08f26ad3.chunk.css.map",
+    "static/js/2.f60d6df7.chunk.js.LICENSE.txt": "/portfolio2020/static/js/2.f60d6df7.chunk.js.LICENSE.txt",
     "static/media/background1.jpg": "/portfolio2020/static/media/background1.1ce10563.jpg",
+    "static/media/brennan2020.pdf": "/portfolio2020/static/media/brennan2020.8cb8ee19.pdf",
     "static/media/cakeday.png": "/portfolio2020/static/media/cakeday.311e5ae7.png",
     "static/media/cpp_practice.png": "/portfolio2020/static/media/cpp_practice.55cdace2.png",
     "static/media/dictation.png": "/portfolio2020/static/media/dictation.5d1caa92.png",
@@ -23,7 +24,6 @@
     "static/media/linkedin.svg": "/portfolio2020/static/media/linkedin.bfd388a5.svg",
     "static/media/pong.png": "/portfolio2020/static/media/pong.0039cff7.png",
     "static/media/portfolio.png": "/portfolio2020/static/media/portfolio.5601bad6.png",
-    "static/media/resume2020.pdf": "/portfolio2020/static/media/resume2020.9d2ff748.pdf",
     "static/media/sassy.jpg": "/portfolio2020/static/media/sassy.583ca09e.jpg",
     "static/media/weatherEssentials.png": "/portfolio2020/static/media/weatherEssentials.b96c8968.png",
     "static/media/yelp.png": "/portfolio2020/static/media/yelp.a4db24da.png",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d961a151.js",
-    "static/js/2.32c7cc72.chunk.js",
-    "static/css/main.2f3472d2.chunk.css",
-    "static/js/main.de5863f1.chunk.js"
+    "static/js/2.f60d6df7.chunk.js",
+    "static/css/main.08f26ad3.chunk.css",
+    "static/js/main.39ffb0c2.chunk.js"
   ]
 }
