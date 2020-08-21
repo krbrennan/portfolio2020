@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navbar from '../navbar/Navbar.js';
+import Footer from '../footer/Footer';
 import values from './project_assets/projects.json';
 
 import ProjectCardList from './ProjectCardList.js';
@@ -25,6 +26,7 @@ class Projects extends React.Component{
                     <h2 className='project-header'>Projects</h2>
                     <ProjectCardList projects={this.state.projList}/>
                 </div>
+                <Footer />
             </section>
         )
 

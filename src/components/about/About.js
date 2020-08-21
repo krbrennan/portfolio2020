@@ -20,7 +20,7 @@ const About = () => {
                    <p className='about-p'>
                     I hold a BA in philosophy, psychology and education. I discovered software development through working with developers at Urban Outfitters Headquarters in Philadelphia, PA and since then I have continuously built applications, completed a rigorous fullstack software engineer program, and attended university with an aim to contribute to and grow with an engineering team. I enthusiastically bring strong skills in team-building, communication, debugging, analysis and leadership that help progressive companies succeed. My personability, background in education, and indefatigable passion for software development has allowed me to accomplish and contribute more in my free time than most any computer science graduates I graduated with in their in four years. I can hit the ground running and I won’t stop.
                    </p>
-                   <a className='resume-a' target='_blank' href={require("./resume2020.pdf")}><button className='resume-btn'>View Resume</button></a>
+                   <a className='resume-a' target='_blank' href={require("./brennan2020.pdf")}><button className='resume-btn'>View Resume</button></a>
                </span>
            </div>
            <div className='skills-and-interests'>
@@ -51,7 +51,7 @@ const About = () => {
                 <div className='interests'>
                     <p className='interests-p'>Interests</p>
                     <ul className='interests-ul'>
-                        <li>Coding...</li>≈
+                        <li>Coding...</li>
                         <li>Fitness</li>
                         <li>Guitar</li>
                         <li>Mountain Biking</li>
