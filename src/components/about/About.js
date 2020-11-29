@@ -57,7 +57,19 @@ const About = () => {
               <li>
                 <img
                   className="language-img"
-                  src={require(".././projects/project_assets/ruby.png")}
+                  src={require(".././projects/project_assets/rrails.jpg")}
+                ></img>
+              </li>
+              <li>
+                <img
+                  className="language-img"
+                  src={require(".././projects/project_assets/node.jpg")}
+                ></img>
+              </li>
+              <li>
+                <img
+                  className="language-img"
+                  src={require(".././projects/project_assets/firebase.png")}
                 ></img>
               </li>
               <li>
@@ -98,7 +110,13 @@ const About = () => {
               <li>
                 <img
                   className="language-img"
-                  src={require(".././projects/project_assets/javascript.png")}
+                  src={require(".././projects/project_assets/js.png")}
+                ></img>
+              </li>
+              <li>
+                <img
+                  className="language-img"
+                  src={require(".././projects/project_assets/wp.png")}
                 ></img>
               </li>
               <li>
@@ -116,7 +134,7 @@ const About = () => {
               <li>
                 <img
                   className="language-img"
-                  src={require(".././projects/project_assets/css.png")}
+                  src={require(".././projects/project_assets/css3.png")}
                 ></img>
               </li>
             </ul>
@@ -128,6 +146,7 @@ const About = () => {
             <li>Coding...</li>
             <li>Fitness</li>
             <li>Guitar</li>
+            <li>Video Games</li>
             <li>Mountain Biking</li>
             <li>Volunteering</li>
             <li>Disc Golf</li>

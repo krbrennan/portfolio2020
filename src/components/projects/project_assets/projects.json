@@ -1,11 +1,20 @@
 [
     {
+        "name": "Twitter Clone",
+        "blurb": "***Production is live but app is still in development*** React && Redux frontend, firebase backend, hosted through firebase. This project has taught me a ton about state-management and firebase's API. I'm still implementing features but as of November 2020 you can create an account, make posts, edit your profile, and logout.",
+        "image": "./project_assets/social.png",
+        "link": "https://social-scourge.web.app/",
+        "code": "https://github.com/krbrennan/social-scourge",
+        "icons": ["./project_assets/react2.png", "./project_assets/node2.png", "./project_assets/firebase.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png", "./project_assets/css.png"],
+        "api": "Developed Node.js backend that is hosted by google's firebase"
+    },
+    {
         "name": "Weather Essentials",
-        "blurb": "Uses geolocation and asynchronous API calls to provide real-time weather data in a visual format.",
+        "blurb": "***Note*** The DarkSky API that this application used has been made inaccessible after Apple purchased them, and this application no longer works :'( Uses geolocation and asynchronous API calls to provide real-time weather data in a visual format.",
         "image": "./project_assets/weatherEssentials.png",
         "link": "https://krbrennan.github.io/weather_react/",
         "code": "https://github.com/krbrennan/weather_react",
-        "icons": ["./project_assets/react.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png", "./project_assets/css.png"],
+        "icons": ["./project_assets/react2.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png", "./project_assets/css.png"],
         "api": "Dark Sky Weather API"
     },
     {
@@ -32,7 +41,7 @@
         "image": "./project_assets/gfycat.png",
         "link": "https://krbrennan.github.io/react_gify/",
         "code": "https://github.com/krbrennan/react_gify",
-        "icons": ["./project_assets/react.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
+        "icons": ["./project_assets/react2.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Gfycat"
     },
     {
@@ -65,7 +74,7 @@
     {
         "name": "Rails Blog",
         "blurb": "This was the first fullstack application that this developer created. It has undergone many changes and is currently being re-developed to resemble something like twitter. It uses encryption (bcrypt) to store passwords and authentication on login.",
-        "image": "./project_assets/weatherEssentials.png",
+        "image": "./project_assets/rails.png",
         "link": "https://lit-river-95308.herokuapp.com/",
         "code": "https://github.com/krbrennan/blog_RoR",
         "icons": ["./project_assets/sql.png", "./project_assets/ruby.png", "./project_assets/html5.png", "./project_assets/css.png"],

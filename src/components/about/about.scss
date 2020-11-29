@@ -1,212 +1,200 @@
-
 .about-section {
-margin: 0;
-padding: 0;
-// width:95vw;
-overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .about-me {
+  display: flex;
+  align-items: center;
+  padding-top: 20em;
+  margin: 0 auto;
+  padding: 5em 10em;
+  //   margin-bottom: 10em;
+  justify-content: center;
+
+  .about-img {
+    height: 400px;
+    border: 3px solid black;
+  }
+  .about-span {
     display: flex;
-    // width: 95vw;
-    margin: 0 auto;
-    // display: flex;
-    margin: 1em;
-    justify-content: center;
+    flex-direction: column;
 
-    .about-img {
-        margin-top: 210px;
-        height: 400px;
-        border: 3px solid black;
+    .about-me-title {
+      font-weight: 600;
+      font-size: 65px;
+      margin: 0.5em;
     }
-    .about-span {
-        display: flex;
-        flex-direction: column;
-
-        .about-me-title {
-            font-weight: 600;
-            font-size: 65px;
-            margin: 0.5em;
-        }
-        .subtitle {
-            font-size: 30px;
-            margin: 1em;
-            font-weight: 600;
-        }
-        .about-p {
-            line-height: 30px;
-            margin: 1.5em;
-            font-size: 20px;
-        }
-        .resume-a {
-            margin: 0 auto;
-        }
-        .resume-btn {
-            width: 200px;
-            height: 75px;
-            font-size: 25px;   
-            border: 2px solid black;
-            background: white;
-        }
-        .resume-btn:hover {
-            cursor: pointer;
-            background: black;
-            color: white;
-        }
-
+    .subtitle {
+      font-size: 30px;
+      margin: 1em;
+      font-weight: 600;
     }
+    .about-p {
+      line-height: 30px;
+      margin: 1.5em;
+      font-size: 20px;
+    }
+    .resume-a {
+      margin: 0 auto;
+    }
+    .resume-btn {
+      width: 200px;
+      height: 75px;
+      font-size: 25px;
+      border: 2px solid black;
+      background: white;
+    }
+    .resume-btn:hover {
+      cursor: pointer;
+      background: black;
+      color: white;
+    }
+  }
 }
 
 // section 2, skills
 
 .skills-and-interests {
-    margin: 1em;
-    margin-top: 10em;
-    margin-left: 5em;
-    .skills {
-
-        > p {
-            font-size: 65px;
-            font-weight: 600;
-        }
-        .backend {
-            margin-top: 3em;
-        }
-
-        .frontend {
-
-        }
-
-        .skills-p {
-            font-size: 31px;
-        }
-        .ul {
-            list-style: none;
-            margin: 3em;
-            display: flex;
-            flex-direction: row;
-            width: 70vw;
-            justify-content: space-evenly;
-
-            > li > img {
-                width: 58px;
-                height: 58px;
-            }
-        }
-        
+  background: #f3f3f3;
+  padding-top: 10em;
+  padding-left: 5em;
+  .skills {
+    > p {
+      font-size: 65px;
+      font-weight: 600;
+    }
+    .backend {
+      margin-top: 3em;
     }
 
-    // interests
-    .interests {
-
-        .interests-p {
-            font-size: 65px;
-            font-weight: 600;
-        }
-
-        .interests-ul {
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            max-width: 90vw;
-            flex-wrap: wrap;
-
-            > li {
-                padding: 1em;
-                font-size: 35px;
-            }
-        }
-
+    .frontend {
     }
+
+    .skills-p {
+      font-size: 31px;
+    }
+    .ul {
+      list-style: none;
+      margin: 3em;
+      display: flex;
+      flex-direction: row;
+      width: 70vw;
+      justify-content: space-evenly;
+
+      > li > img {
+        width: 58px;
+        height: 58px;
+      }
+    }
+  }
+
+  // interests
+  .interests {
+    .interests-p {
+      font-size: 65px;
+      font-weight: 600;
+    }
+
+    .interests-ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      max-width: 90vw;
+      flex-wrap: wrap;
+
+      > li {
+        padding: 1em;
+        font-size: 35px;
+      }
+    }
+  }
 }
 
+@media (max-width: 1200px) {
+  .about-me {
+    flex-direction: column;
 
-@media (max-width: 1200px){
-
-    .about-me {
-        flex-direction: column;
-
-        .about-img {
-            max-width: 500px;
-            margin: 0 auto;
-        }
+    .about-img {
+      max-width: 500px;
+      margin: 0 auto;
     }
+  }
 }
 
 @media (max-width: 800px) {
-    .about-me {
-        margin-top: 4em;
-    }
+  .about-me {
+    margin-top: 4em;
+  }
 }
 
 @media (max-width: 600px) {
-    #root > section > div.about-me > span > p.about-me-title {
-        font-size: 50px;
-    }
-    .skills-and-interests {
-        margin-top: 6em;
-    }
+  #root > section > div.about-me > span > p.about-me-title {
+    font-size: 50px;
+  }
+  .skills-and-interests {
+    margin-top: 6em;
+  }
 
-    #root > section > div.about-me > span > .about-p {
-        font-size: 15px;
-    }
+  #root > section > div.about-me > span > .about-p {
+    font-size: 15px;
+  }
 
-    .skills-and-interests {
-        margin-left: 3em;
-    }
+  .skills-and-interests {
+    margin-left: 3em;
+  }
 
-    #root > section > div.skills-and-interests > div.skills > div > ul {
-        margin: 0;
-        padding: 2em 0;
-    }
+  #root > section > div.skills-and-interests > div.skills > div > ul {
+    margin: 0;
+    padding: 2em 0;
+  }
 
-    #root > section > div.skills-and-interests > div.interests > ul {
-        flex-direction: column;
-        max-width: 100%;
-    }
+  #root > section > div.skills-and-interests > div.interests > ul {
+    flex-direction: column;
+    max-width: 100%;
+  }
 
-    #root > section > div.skills-and-interests > div.interests > ul {
-        margin: 0 auto;
+  #root > section > div.skills-and-interests > div.interests > ul {
+    margin: 0 auto;
 
-        li {
-            margin-left: 2em;
-        }
+    li {
+      margin-left: 2em;
     }
-    
+  }
 }
 
 @media (max-width: 510px) {
-
-    .about-img {
-        width: 350px;
-        height: 300px !important;
-    }
+  .about-img {
+    width: 350px;
+    height: 300px !important;
+  }
 }
 
 @media (max-width: 400px) {
-    .about-img {
-        width: 250px;
-        height: 200px !important;
-    }
-    #root > section > div.about-me > span > p.about-me-title {
-        font-size: 30px;
-    }
-    #root > section > div.about-me > span > p.subtitle {
-        font-size: 20px;
-    }
-    .skills-and-interests {
-        margin-top: 6em;
-    }
-    .language-img {
-        width: 40px !important;
-        height: 40px !important;
-    }
-    #root > section > div.skills-and-interests > div.interests > ul {
-        margin: 0 auto;
+  .about-img {
+    width: 250px;
+    height: 200px !important;
+  }
+  #root > section > div.about-me > span > p.about-me-title {
+    font-size: 30px;
+  }
+  #root > section > div.about-me > span > p.subtitle {
+    font-size: 20px;
+  }
+  .skills-and-interests {
+    margin-top: 6em;
+  }
+  .language-img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #root > section > div.skills-and-interests > div.interests > ul {
+    margin: 0 auto;
 
-        li {
-            margin-left: 0;
-            padding: 0.5em 0;
-        }
+    li {
+      margin-left: 0;
+      padding: 0.5em 0;
     }
+  }
 }

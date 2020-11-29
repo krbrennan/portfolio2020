@@ -1,23 +1,25 @@
-
 .project-section {
-    overflow: hidden;
-    // margin-top: 10%;
-    position: relative;
-    .project-header {
-        font-size: 60px;
-        margin-top: 3%;
-        margin-left: 8%;
-    }
+  overflow: hidden;
+  // margin-top: 10%;
+  position: relative;
+  .project-header {
+    font-size: 60px;
+    margin-top: 3%;
+    margin-left: 8%;
+  }
+  .icon > img {
+    max-width: 60px;
+  }
 }
 
-// 
-// 
+//
+//
 // Media Queries
-// 
-// 
+//
+//
 
-@media (max-width: 799px){
-    .project-content {
-        margin-top:75px;
-    }
+@media (max-width: 799px) {
+  .project-content {
+    margin-top: 75px;
+  }
 }
