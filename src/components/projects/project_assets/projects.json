@@ -12,7 +12,6 @@
         "name": "Weather Essentials",
         "blurb": "***Note*** The DarkSky API that this application used has been made inaccessible after Apple purchased them, and this application no longer works :'( Uses geolocation and asynchronous API calls to provide real-time weather data in a visual format.",
         "image": "./project_assets/weatherEssentials.png",
-        "link": "https://krbrennan.github.io/weather_react/",
         "code": "https://github.com/krbrennan/weather_react",
         "icons": ["./project_assets/react2.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png", "./project_assets/css.png"],
         "api": "Dark Sky Weather API"
