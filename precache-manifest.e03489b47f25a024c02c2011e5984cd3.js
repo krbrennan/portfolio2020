@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c40bb38564412bb78aeed1c94109e511",
+    "revision": "9f575b64315ddfd4d0b059f9c6257c4f",
     "url": "/portfolio2020/index.html"
   },
   {
-    "revision": "78096d0055269ad2a8c3",
-    "url": "/portfolio2020/static/css/main.234e833c.chunk.css"
+    "revision": "b77c8f23456d74da7104",
+    "url": "/portfolio2020/static/css/main.b64d27a1.chunk.css"
   },
   {
     "revision": "4168214d4e27eaa21c99",
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2020/static/js/2.8e212cb4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78096d0055269ad2a8c3",
-    "url": "/portfolio2020/static/js/main.28066793.chunk.js"
+    "revision": "b77c8f23456d74da7104",
+    "url": "/portfolio2020/static/js/main.9e5636c0.chunk.js"
   },
   {
     "revision": "d39ab254601bf52d45b3",
     "url": "/portfolio2020/static/js/runtime-main.d961a151.js"
   },
   {
-    "revision": "1ce105635cda83c4e5c8aba762a780b6",
-    "url": "/portfolio2020/static/media/background1.1ce10563.jpg"
+    "revision": "68d6a6928ed254de7fa7184efb8b44ac",
+    "url": "/portfolio2020/static/media/Brennan2021.68d6a692.pdf"
   },
   {
-    "revision": "f7ed9667bc885835afa595ff7b591cae",
-    "url": "/portfolio2020/static/media/brennan2020.f7ed9667.pdf"
+    "revision": "1ce105635cda83c4e5c8aba762a780b6",
+    "url": "/portfolio2020/static/media/background1.1ce10563.jpg"
   },
   {
     "revision": "311e5ae75b0283c710d9ec66d573edb9",
