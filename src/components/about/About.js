@@ -12,37 +12,21 @@ const About = () => {
       <div className="about-me">
         <img className="about-img" src={require("./sassy.jpg")}></img>
         <span className="about-span">
-          <p className="about-me-title">About Me</p>
+          <p className="about-me-title">Kevin Brennan</p>
           <p className="subtitle">
-            I'm a fullstack developer from the greater Philadelphia PA area
+            A developer living in the greater Philadelphia PA area
             (willing to relocate)
           </p>
           <p className="about-p">
-            I have a passion for building, teaching and learning. I'm
-            experienced in Javascript, Ruby (and Rails), React, git, and have
-            build applications with SQL, node.js, python3, Angular, and C++.
-          </p>
-          <p className="about-p">
-            Versatile fullstack developer with a passion for building, teaching,
-            and learning. Experience in React, Javascript, Ruby on Rails,
-            restful API, SQL, modular code, Git, python and a BA in political
-            science, psychology and education. I discovered software development
-            through a close friend in 2016 and since then I have continuously
-            built websites, created javascript games and tools, consulted and
-            helped market local businesses, completed a rigorous fullstack
-            software engineer program, and helped local coding meetups with a
-            purpose to some day contribute to and grow with an engineering team.
-            I enthusiastically bring strong skills in team-building,
-            communication, debugging, analysis and leadership that helps
-            companies succeed. My personability, critical thinking and research
-            skills, background in education, and ​indefatigable passion for
-            software development makes for an invaluable addition to your team.
-            I can hit the ground running and I won’t stop.
+            I currently am working as a wordpress developer and designer at a local family-owned wordpress shop and I have a passion for full-stack development.
+            I love building out new features and ensuring that my code is responsive and DRY, and I'm always researching what others are doing so that I can look to implement
+            new patterns and tech that make the user's experience faster and more enriching.<br></br><br></br>
+            In my free time I'm usually coding, reading, practicing archery, lockpicking, playing disc golf, or going on long walks. 
           </p>
           <a
             className="resume-a"
             target="_blank"
-            href={require("./brennan2020.pdf")}
+            href={require("./Brennan2021.pdf")}
           >
             <button className="resume-btn">View Resume</button>
           </a>

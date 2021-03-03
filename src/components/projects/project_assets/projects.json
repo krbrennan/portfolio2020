@@ -9,23 +9,6 @@
         "api": "Developed Node.js backend that is hosted by google's firebase"
     },
     {
-        "name": "Weather Essentials",
-        "blurb": "***Note*** The DarkSky API that this application used has been made inaccessible after Apple purchased them, and this application no longer works :'( Uses geolocation and asynchronous API calls to provide real-time weather data in a visual format.",
-        "image": "./project_assets/weatherEssentials.png",
-        "code": "https://github.com/krbrennan/weather_react",
-        "icons": ["./project_assets/react2.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png", "./project_assets/css.png"],
-        "api": "Dark Sky Weather API"
-    },
-    {
-        "name": "Rent-a-Dog",
-        "blurb": "Static single-page-application for a fictional dog-rental company. Fully responsive and made in a few hours over a weekend.",
-        "image": "./project_assets/dog.png",
-        "link": "https://krbrennan.github.io/rent-a-dog/",
-        "code": "https://github.com/krbrennan/rent-a-dog",
-        "icons": ["./project_assets/javascript.png", "./project_assets/html5.png","./project_assets/css.png"],
-        "api": null
-    },
-    {
         "name": "Youtube Clone",
         "blurb": "This SPA uses Youtube's API to retrieve videos that the user searches. While typing for videos this app will continuously make calls; albeit inefficient it shows the user how quickly data is passed between users and servers.",
         "image": "./project_assets/youtube.png",
@@ -33,15 +16,6 @@
         "code": "https://github.com/krbrennan/react_youtube_clone",
         "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Youtube"
-    },
-    {
-        "name": "Gif Lookup",
-        "blurb": "This app uses React's speed to display API data gathered from gfycat, a popular gif hosting website. I plan to implement a betterlazy-loader to improve load-times and window-freezing.",
-        "image": "./project_assets/gfycat.png",
-        "link": "https://krbrennan.github.io/react_gify/",
-        "code": "https://github.com/krbrennan/react_gify",
-        "icons": ["./project_assets/react2.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
-        "api": "Gfycat"
     },
     {
         "name": "Dictation Application",
@@ -60,6 +34,32 @@
         "code": "https://github.com/krbrennan/contra-yelp",
         "icons": ["./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
         "api": "Yelp"
+    },
+    {
+        "name": "Gif Lookup",
+        "blurb": "This app uses React's speed to display API data gathered from gfycat, a popular gif hosting website. I plan to implement a betterlazy-loader to improve load-times and window-freezing.",
+        "image": "./project_assets/gfycat.png",
+        "link": "https://krbrennan.github.io/react_gify/",
+        "code": "https://github.com/krbrennan/react_gify",
+        "icons": ["./project_assets/react2.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png","./project_assets/css.png"],
+        "api": "Gfycat"
+    },
+    {
+        "name": "Weather Essentials",
+        "blurb": "***Note*** The DarkSky API that this application used has been made inaccessible after Apple purchased them, and this application no longer works :'( Uses geolocation and asynchronous API calls to provide real-time weather data in a visual format.",
+        "image": "./project_assets/weatherEssentials.png",
+        "code": "https://github.com/krbrennan/weather_react",
+        "icons": ["./project_assets/react2.png", "./project_assets/javascript.png", "./project_assets/api.png", "./project_assets/html5.png", "./project_assets/css.png"],
+        "api": "Dark Sky Weather API"
+    },
+    {
+        "name": "Rent-a-Dog",
+        "blurb": "Static single-page-application for a fictional dog-rental company. Fully responsive and made in a few hours over a weekend.",
+        "image": "./project_assets/dog.png",
+        "link": "https://krbrennan.github.io/rent-a-dog/",
+        "code": "https://github.com/krbrennan/rent-a-dog",
+        "icons": ["./project_assets/javascript.png", "./project_assets/html5.png","./project_assets/css.png"],
+        "api": null
     },
     {
         "name": "2017-2019 Portfolio",
